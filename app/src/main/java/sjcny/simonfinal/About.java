@@ -31,7 +31,8 @@ public class About extends AppCompatActivity {
 
         }
         if (id == R.id.action_home) {
-            System.exit(1);
+            Intent myIntent = new Intent(this, MainActivity.class);
+            startActivity(myIntent);
         }
         return super.onOptionsItemSelected(item);
     }
