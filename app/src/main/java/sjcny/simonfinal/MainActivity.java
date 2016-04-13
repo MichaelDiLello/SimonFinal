@@ -52,7 +52,8 @@ public class MainActivity extends AppCompatActivity {
         }
         if (id == R.id.action_home)
         {
-            System.exit(1);
+//            System.exit(1);
+            finish();
         }
 
         if (id == R.id.action_mute)
